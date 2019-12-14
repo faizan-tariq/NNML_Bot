@@ -13,7 +13,7 @@ def mse_loss(y_true, y_pred):
     # y_true and y_pred are numpy arrays of the same length.
     return ((y_true - y_pred) ** 2).mean()
 
-class OurNeuralNetwork:
+class BasicNeuralNetwork:
     def __init__(self):
         # Weights
         self.w1 = np.random.normal()
@@ -84,7 +84,7 @@ all_y_trues = np.array([
 ])
 
 # Train our neural network!
-network = OurNeuralNetwork()
+network = BasicNeuralNetwork()
 network.train(data, all_y_trues)
 
 
