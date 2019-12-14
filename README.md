@@ -1,1 +1,3 @@
-# NNML_Bot
+### NNML_Bot
+
+### Implementing a basic neural network
