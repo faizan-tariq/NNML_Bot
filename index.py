@@ -83,7 +83,7 @@ all_y_trues = np.array([
     0
 ])
 
-# Train our neural network!
+# Train neural network!
 network = BasicNeuralNetwork()
 network.train(data, all_y_trues)
 
