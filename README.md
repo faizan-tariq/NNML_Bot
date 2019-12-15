@@ -81,7 +81,7 @@ Recommended: 0.752
 Recommended: 0.995
 ````
 
-### Future Goal
+#### Future Goal
 **The Ultimate Goal is to automate an interview activity for basic screening.** Notice that this neural network accepts individual score of an interviewee in 3 different departments. We still need a manual effort of asking questions and deciding which answer is right or wrong to give score in each deptartment. I am planning to automate this question asking part of an interview and **connect this Neural Network** created above with **NLP based Expert System** which has a **Knowledge Pool** of some true/false questions and will ask the questions and give score which will act as input to this neural netowrk which gives the final Recommendation. 
 
 *Stay Tunned :)* 
