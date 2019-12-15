@@ -16,16 +16,39 @@ The activation function is used to turn an unbounded input into an output that h
 
 <img src="https://faizan-tariq.github.io/NNML_Bot/sigmoid.png"/>
 
+````
+def sigmoid(x):
+    # Sigmoid activation function: f(x) = 1 / (1 + e^(-x))
+    return 1 / (1 + np.exp(-x))
+````
 
 ### Feed Forward
 Inputs to neurons are actually feed, and forwarding feed to other neurons in the network or fowarding feed to the same neuron while progressions is feed forward. Once your neuron / neural netowrk is trained, then you can feed forward to predict the output.
+````
+def feedforward(self, x):
+        # x is a numpy array with 3 elements.
+        n1 = sigmoid(self.w1 * x[0] + self.w2 * x[1] + self.w3 * x[2] + self.b1)
+        return n1
+````
 
 ### Loss
 Training a neural network is actually trying to minimize its loss.
 We need a way to quantify how good it is so that it can try to do better. We will use the mean squared error (MSE) for this.
+````
+def mse_loss(y_true, y_pred):
+    # y_true and y_pred are numpy arrays of the same length.
+    return ((y_true - y_pred) ** 2).mean()
+````
 
 ### Stochastic Gradient Descent
-In order to train neural network we need an optimization algorithm called stochastic gradient descent (SGD) that tells us how to change our weights and biases to minimize loss which is based on the principle of partial derivatives. 
+In order to train neural network we need an optimization algorithm called stochastic gradient descent (SGD) that tells us how to change our weights and biases to minimize loss which is based on the principle of partial derivatives. You need to calculate the partial derivatives of sigmoid function against each entity to get the rate of change.  
+````
+def deriv_sigmoid(x):
+    # Derivative of sigmoid: f'(x) = f(x) * (1 - f(x))
+    fx = sigmoid(x)
+    return fx * (1 - fx)
+````
+
 
 ### Traning
 The exammple consist of 1 neuron, which predicts the status of a candidate in an interview, i.e. either Recommended or Not Recommended based on 3 departments OOP, DB and OS by marking score out of 5 in each. The data is more biased towards OOP which has high priority among other departments. Based on the data our neural network will get trainned in a way that it will learn that OOP has high weightage among others (Do notice there is no hardcoded checks or conditonal logic defined in the code to prioritize OOP over others but still our system will learn this based on the given data)
