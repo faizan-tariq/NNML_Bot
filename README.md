@@ -68,7 +68,7 @@ The exammple consist of 1 neuron, which predicts the status of a candidate in an
 
 * Entry [0, 5, 5] and [5, 3, 3] are the ones which are deciding that OOP has highest priority over other department.* 
 
-Following is the list of output of training samples above, this output is also part of traning data for our nerual netowrk and it will compared with the predicted value and help in loss calculation and refinement. 
+Following is the list of output of training samples above, this output is also part of traning data for our nerual network and it will be compared with the predicted value and help in loss calculation and refinement. 
 0 means not recommend and 1 means recommend.
 ````
 [
