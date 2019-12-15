@@ -1,7 +1,7 @@
 ## NNML_Bot (For Beginners)
 
 ### Goal
-The goal is to build an AI based machine learning bot using Neutral Network which has the capability of rating an interviewee as Recommendded or Not Recommended based on the individual scoring of different departments as input. 
+The goal is to build an AI based Machine Learning bot using Neutral Network which has the capability of rating an interviewee as Recommendded or Not Recommended based on the individual scoring of different departments as input. 
 
 ### Implementing a basic neural network
 Neuron is the basic building block of a neural network. Multiple neurons can be connected which form a neural network. Output of one neuron is treat as input for other neuron. The basic level implementation of neural network can be started with one neuron based on the complexity of the problem. 
