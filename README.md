@@ -66,6 +66,8 @@ The exammple consist of 1 neuron, which predicts the status of a candidate in an
     [4, 1, 1],     # Not Recommended
 ````
 
+* Entry [0, 5, 5] and [5, 3, 3] are the ones which are deciding that OOP has highest priority over other department.* 
+
 ### Predictions
 Input to test is as follows:
 ````
@@ -81,6 +83,7 @@ Not Recommended: 0.008
 Recommended: 0.752
 Recommended: 0.995
 ````
+*The prediction is 100% perfect. But you will notice that 0.752 and 0.995 both lies in Recommended bracket, the reason to this is because based on their respective input data [5,4,3] is better than [4,3,3] based on the fact that OOP has highest weightage over others which our system induced based on the training data. If you want this weightage to be changed you can change your training data and your system will learn it and will change its behavior accordingly. Whatever the training you give to your neuron, it will learn and develop itself based on that.*
 
 ## Future Goal
 **The Ultimate Goal is to automate an interview activity for basic screening.** Notice that this neural network accepts individual score of an interviewee in 3 different departments. We still need a manual effort of asking questions and deciding which answer is right or wrong to give score in each deptartment. I am planning to automate this question asking part of an interview and **connect this Neural Network** created above with **NLP based Expert System** which has a **Knowledge Pool** of some true/false questions and will ask the questions and give score which will act as input to this neural netowrk which gives the final Recommendation. 
