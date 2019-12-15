@@ -24,7 +24,7 @@ class BasicNeuralNetwork:
         self.b1 = np.random.normal()
 
     def feedforward(self, x):
-        # x is a numpy array with 2 elements.
+        # x is a numpy array with 3 elements.
         n1 = sigmoid(self.w1 * x[0] + self.w2 * x[1] + self.w3 * x[2] + self.b1)
         return n1
 
