@@ -57,3 +57,6 @@ Not Recommended: 0.008
 Recommended: 0.752
 Recommended: 0.995
 ````
+
+### Future Goal
+Notice that this neural network accepts individual score of an interviewee in 3 different department. We still need an manual effort of asking questions and deciding which answer is right or wrong to give score in each deptartment. I am planning to automate this question asking part of an interview and connect this neural network created above with NLP based expert system which has a knowledge pool of some true/false questions and will ask the questions and give rating. *Stay Tunned :)* 
