@@ -92,7 +92,7 @@ Input to test is as follows:
 [4, 3, 3] # Recommended
 [5, 4, 3] # Recommended
 ````
-Output approx. near to 0 (means not recommend) and output apporaching 1 (means recommend).
+Output approx. near to 0 (means not recommended) and output apporaching 1 (means recommended).
 ````
 Not Recommended: 0.007
 Not Recommended: 0.008
