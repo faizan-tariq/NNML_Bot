@@ -52,7 +52,7 @@ def deriv_sigmoid(x):
 
 
 ### Traning
-The exammple consist of 1 neuron, which predicts the status of a candidate in an interview, i.e. either Recommended or Not Recommended based on 3 departments OOP, DB and OS by marking score out of 5 in each. The data is more biased towards OOP which has high priority among other departments. Based on the data our neural network will get trainned in a way that it will learn that OOP has high weightage among others (Do notice there is no hardcoded checks or conditonal logic defined in the code to prioritize OOP over others but still our system will learn this based on the given data)
+The exammple consist of 1 neuron, which predicts the status of a candidate in an interview, i.e. either Recommended or Not Recommended based on 3 departments OOP, DB and OS by marking score out of 5 in each. The data is more biased towards OOP which has high priority among other departments. Based on the data our neural network will get trainned in a way that it will learn that OOP has highest weightage among others (Do notice there is no hardcoded checks or conditonal logic defined in the code to prioritize OOP over others but still our system will learn this behavior based on the given data)
 
 ````
 # [oop, db, os]
