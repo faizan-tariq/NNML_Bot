@@ -30,6 +30,7 @@ def feedforward(self, x):
         n1 = sigmoid(self.w1 * x[0] + self.w2 * x[1] + self.w3 * x[2] + self.b1)
         return n1
 ````
+*As you can see above we have w1, w2, w3 and x0, x1, x2. Since for now we have limited our scope to only 3 departments i.e. OOP, DB and OS, so we have 3 weightages and input defined in our neuron. If you want to add more departments then you need same amount of weightages and input variables in your system.*
 
 ### Loss
 Training a neural network is actually trying to minimize its loss.
