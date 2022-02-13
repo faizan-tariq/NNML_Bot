@@ -4,7 +4,7 @@
 The goal is to build an AI based Machine Learning bot using Neutral Network which has the capability of rating an interviewee as Recommended or Not Recommended based on the individual scoring of different departments as input. 
 
 ### Implementing a basic neural network
-Neuron is the basic building block of a neural network. Multiple neurons can be connected which form a neural network. Output of one neuron is treat as input for other neuron. The basic level implementation of neural network can be started with one neuron based on the complexity of the problem. 
+Neuron is the basic building block of a neural network. Multiple neurons can be connected which form a neural network. Output of one neuron is treated as input for other neuron. The basic level implementation of neural network can be started with one neuron based on the complexity of the problem. 
 
 <img src="https://faizan-tariq.github.io/NNML_Bot/NNML.png"/>
 
