@@ -23,7 +23,7 @@ def sigmoid(x):
 ````
 
 ### Feed Forward
-Inputs to neurons are actually feed, and forwarding feed to other neurons in the network or fowarding feed to the same neuron while progressions is feed forward. Once your neuron / neural netowrk is trained, then you can feed forward to predict the output.
+Inputs to neurons are actually feed, and forwarding feed to other neurons in the network or fowarding feed to the same neuron while progressions is feed forward. Once your neuron / neural network is trained, then you can feed forward to predict the output.
 ````
 def feedforward(self, x):
         # x is a numpy array with 3 elements.
